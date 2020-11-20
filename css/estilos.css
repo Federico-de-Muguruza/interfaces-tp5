@@ -5,9 +5,22 @@
 }
 
 body {
-	background: #212121;
+    background-color: #212121;
 }
 
+.btn-success {
+	background-color: #61FF7B;
+	border: none;
+  }
+
+.btn-danger {
+	background-color: #FF7B61;
+	border: none;
+  }
+
+.btn-success span, .btn-danger span {
+	color: black;
+  }
 
 /* Preguntas frecuentes */
 

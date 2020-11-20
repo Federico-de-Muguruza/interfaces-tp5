@@ -182,14 +182,14 @@
   color: black;
 }
 
-.btn-success {
+/* .btn-success {
   background-color: #61FF7B;
   border: none;
-}
+} */
 
-.btn-success span {
+/* .btn-success span {
   color: black;
-}
+} */
 
 .box-seguir-siendo-gratis {
   display: none;
@@ -201,10 +201,6 @@
     justify-content: center;
     width: 100%;
   }
-}
-
-body {
-	background: #212121;
 }
 
 h3 {
