@@ -1,26 +1,72 @@
 :root {
     --color-fondo-oscuro: #212121; /*esta en hexadecimal*/
     --color-fondo-claro: #333333;
+    --color-fondo-azul: #040019;
+    --color-blanco: #F0F0F0;
     --color-azul-editar:  #5AA7F2;
     --color-azul-link: #1E90FF;
     --color-verde-aceptar:  #61FF7B;
     --color-rojo-cancelar:  #FF7B61;
     --color-gris-info: #999999;
+    --bordes-div: 3px;
 }
 
-/*El primer parámetro que recibe la función es el nombre de la custom property que será reemplazada. Se puede utilizar un segundo parámetro opcional como fallback de el primero. Si la custom property referenciada por el primer parámetro no es válida, entonces la función utiliza el valor del segúndo parámetro.*/
+/* 
+"variables" de CSS: El primer parámetro que recibe la función es el nombre de la custom property que será reemplazada. 
+Se puede utilizar un segundo parámetro opcional como fallback de el primero. 
+Si la custom property referenciada por el primer parámetro no es válida, 
+entonces la función utiliza el valor del segúndo parámetro.
+Se definen todas dentro de :root y su nombre debe epezar siempre por --
+Para usarla solo basta con declarar var() y dentro escribir la variable a usar.
+*/
+
+*{
+    color: var(--color-blanco, white);
+}
+
+.inexistente{
+    display: none;
+}
+
+.info {
+    color: var(--color-gris-info);
+}
+
 body{
-    background-color: var(--color-fondo-oscuro, black); 
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-fondo-oscuro); 
+    padding: 6%; /* 22 * 100 / 360 = 6.1 de margen de los elementos*/
+}
+
+.caja{
+    background-color: var(--color-fondo-claro);
+    border-radius: var(--bordes-div);
+    overflow: auto;
+    width: 100%;
+    padding: 6.3%; /* (20 * 100 / 317) = 6.3 -> de pixeles a porcentaje basado en tamaños de figma */
+    margin-bottom: 3.3%; /* (14 * 100 / 418) = 3.34 */
+    margin-top: 3.3%; 
+}
+
+.renglon{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .btn-editar {
     background-color: var(--color-azul-editar);
+    border: none;
 }
 
-.btn-aceptar {
+.btn-aplicar {
     background-color: var(--color-verde-aceptar);
+    border: none;
 }
 
 .btn-cancelar {
     background-color: var(--color-rojo-cancelar);
+    border: none;
 }
