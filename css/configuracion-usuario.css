@@ -1,0 +1,26 @@
+:root {
+    --color-fondo-oscuro: #212121; /*esta en hexadecimal*/
+    --color-fondo-claro: #333333;
+    --color-azul-editar:  #5AA7F2;
+    --color-azul-link: #1E90FF;
+    --color-verde-aceptar:  #61FF7B;
+    --color-rojo-cancelar:  #FF7B61;
+    --color-gris-info: #999999;
+}
+
+/*El primer parámetro que recibe la función es el nombre de la custom property que será reemplazada. Se puede utilizar un segundo parámetro opcional como fallback de el primero. Si la custom property referenciada por el primer parámetro no es válida, entonces la función utiliza el valor del segúndo parámetro.*/
+body{
+    background-color: var(--color-fondo-oscuro, black); 
+}
+
+.btn-editar {
+    background-color: var(--color-azul-editar);
+}
+
+.btn-aceptar {
+    background-color: var(--color-verde-aceptar);
+}
+
+.btn-cancelar {
+    background-color: var(--color-rojo-cancelar);
+}
