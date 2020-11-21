@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #212121;
+	background-color: #212121;
 }
 
 .btn-success {
@@ -21,83 +21,3 @@ body {
 .btn-success span, .btn-danger span {
 	color: black;
   }
-
-/* Preguntas frecuentes */
-
-/*.active, .acordeon:hover {
-	background-color: #333;
-}*/
-
-.box-acordeon {
-	/*margin: 30px;*/
-	padding: 30px;
-	animation: opacity 1s;
-	font-size: 20px;
-	background: #333;
-	color: #fff;
-	text-align: center;
-}
-
-.box-acordeon h3 {
-	margin: 10px;
-}
-
-.acordeon {
-  background-color: #040019;
-  color: #fff;
-  cursor: pointer;
-  padding: 15px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 20px;
-  transition: 0.5s;
-  border-radius: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  /* text-align: center; */
-}
-
-/*.active, .acordeon:hover {
-	background-color: #333;
-}*/
-
-.info-acordeon {
-	border-radius: 10px;
-	overflow: hidden;
-	padding: 0px 35px 35px;
-	background: #E0E0DF;
-	animation: dropdown 0.4s;
-	transform-origin: top center;
-	/*width: 400px;*/
-	transition: 0.5s;
-	text-align: center;
-	color: black;
-	margin-top: -10px;
-}
-
-.info-acordeon p {
-	margin: 30px;
-	font-weight: bold;
-}
-
-.info-acordeon img {
-	width: 100%;
-	height: 100%;
-    object-fit: contain;
-	transition: 0.5s;
-}
-
-.info-acordeon img:hover {
-	transform: scale(1.05);
-	transition: 0.5s;
-	box-shadow: 10px 10px 10px black;
-}
-
-@media (min-width: 800px) {
-  .box-acordeon {
-    margin: 80px auto;
-    width: 50%;
-  }
-}

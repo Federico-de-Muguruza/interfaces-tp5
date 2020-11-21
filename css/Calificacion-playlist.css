@@ -1,0 +1,140 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0!important;
+}
+
+.tipo {
+    background-color: #212121;
+    color: #fff;
+    padding: 25px;
+}
+
+.tipo h2 {
+    text-align: center;
+}
+
+.title-calificacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212121;
+    color: #fff;
+    padding: 25px;
+    border-top: 1px solid #777;
+}
+
+.bi {
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+
+.title-calificacion h3 {
+    margin: 0 auto;
+}
+
+.img-theme {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #040019;
+}
+
+.img-theme img {
+    width: 50%;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.opiniones {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+.opiniones p {
+    margin: 0px;
+}
+
+.options {
+    background-color: #2C2C2C;
+    display: flex;
+    justify-content: flex-end;
+    color:  #fff;
+    padding: 10px;
+}
+
+.options .bi {
+    margin: 10px;
+}
+
+.comment-section {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-color: #212121;
+    padding: 25px;
+}
+
+.your-comment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #666666;
+    border-radius: 10px;
+
+}
+
+.no-opinion {
+    color: yellow;
+}
+
+.your-comment label {
+    margin-top: 10px;
+}
+
+.your-comment textarea {
+    width: 75%;
+    height: 100px;
+    resize: none;
+    border-radius: 10px;
+}
+
+.bottom-btn {
+    padding: 10px;
+}
+
+.box-comment {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.comment {
+    margin-top: 10px;
+}
+
+.fecha {
+    color: #777;
+}
+
+.bi-star-fill {
+    color: yellow;
+}
+
+.other-comments {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+
+
