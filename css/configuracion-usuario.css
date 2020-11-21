@@ -9,6 +9,8 @@
     --color-rojo-cancelar:  #FF7B61;
     --color-gris-info: #999999;
     --bordes-div: 3px;
+    --color-scroll-fondo: #4A4A4A;
+    --color-scoll-barra: #C8C8C8;
 }
 
 /* 
@@ -22,6 +24,23 @@ Para usarla solo basta con declarar var() y dentro escribir la variable a usar.
 
 *{
     color: var(--color-blanco, white);
+}
+
+/* thumb es la barra y track es el espacio de detras*/
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 0.7rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-scoll-barra);
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-scroll-fondo);
+    border-radius: 8px;
 }
 
 .inexistente{
@@ -72,12 +91,12 @@ body{
     border: none;
 }
 
-.positivo{
+#gusta-positivo li{
     background-color: var(--color-verde-aceptar);
     border-radius: var(--bordes-div);
 }
 
-.negativo{
+#gusta-negativo li{
     background-color: var(--color-rojo-cancelar);
     border-radius: var(--bordes-div);
 }
@@ -114,20 +133,36 @@ ul {
 }
 
 #modo-tipo li{
+    margin-left: 3%;
     border-top-left-radius: var(--bordes-div);
     border-bottom-left-radius: var(--bordes-div);
 }
 
 #modo-horario li{
+    margin-right: 3%;
     border-top-right-radius: var(--bordes-div);
     border-bottom-right-radius: var(--bordes-div);
+}
+
+.gustos ul:last-child li{
+    margin-right: 3%;
+}
+
+.gustos ul:first-child li{
+    margin-left: 3%;
 }
 
 .modo-contenido li{
     background-color: var(--color-blanco);
 }
 
+.modo-contenido, .gustos{
+    max-height: 148.97px;
+    overflow-y: scroll;
+}
+
 li{
     margin-top: 1%;
+    padding: 1%;
     color: black;
 }
