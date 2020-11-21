@@ -10,49 +10,45 @@
 <body>
 
     <section class="caja caja-tabla">
-        <table class="gusto">
-            <!-- <caption>Gustos</caption> -->
-            <thead>
-                <tr>
-                    <th>Me gusta</th>
-                    <th>No me gusta</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="positivo">Jazz</td>
-                    <td class="negativo">Rock</td>
-                </tr>
-            </tbody>
-        </table>
-        <div>
-            <button>+</button>
-            <button>+</button>
+        <div class="columnas encabezado">
+            <p>Me gusta</p>
+            <p>No me gusta</p>
+        </div>
+        <div class="columnas">
+            <ul id="gusta-positivo">
+                <li class="positivo">Jazz</li>
+                <li class="positivo">Latino</li>
+            </ul>
+            <ul id="gusta-negativo">
+                <li class="negativo">Rock</li>
+            </ul>
+        </div>
+        
+        <div class="columnas">
+            <button type="button" class="btn btn-info">Agregar</button>
+            <button type="button" class="btn btn-info">Agregar</button>
         </div>
     </section>
 
     <section class="caja caja-tabla">
-        <table class="modo">
-            <!-- <caption>Modos</caption> -->
-            <thead>
-                <tr>
-                    <th>Modo</th>
-                    <th>Horario</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Nocturno</td>
-                    <td>20:00 - 5:30</td>
-                </tr>
-                <tr>
-                    <td>Trabajo</td>
-                    <td>10:00 - 18:00</td>
-                </tr>
-            </tbody>
-        </table>
-        <button>+</button>
+        <div class="columnas encabezado">
+            <p>Modo</p>
+            <p>Horario</p>
+        </div>
+        <div class="columnas modo-contenido">
+            <ul id="modo-tipo">
+                <li>Nocturno</li>
+                <li>Trabajo</li>
+            </ul>
+            <ul id="modo-horario">
+                <li>20:00 - 5:30</li>
+                <li>10:00 - 18:00</li>
+            </ul>
+        </div>
+        
+        <div class="columnas">
+            <button type="button" class="btn btn-info">Agregar</button>
+        </div>
     </section>
-    
 </body>
 </html>
