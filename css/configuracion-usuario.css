@@ -33,7 +33,7 @@ Para usarla solo basta con declarar var() y dentro escribir la variable a usar.
 }
 
 body{
-    width: 100%;
+    width: 100vw;
     height: 100%;
     background-color: var(--color-fondo-oscuro); 
     padding: 6%; /* 22 * 100 / 360 = 6.1 de margen de los elementos*/
@@ -69,4 +69,49 @@ body{
 .btn-cancelar {
     background-color: var(--color-rojo-cancelar);
     border: none;
+}
+
+.positivo{
+    background-color: var(--color-verde-aceptar);
+    border-radius: var(--bordes-div);
+}
+
+.negativo{
+    background-color: var(--color-rojo-cancelar);
+    border-radius: var(--bordes-div);
+}
+
+.caja-tabla {
+    padding: 0;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    width: 50%;
+}
+
+thead{
+    background-color: var(--color-fondo-azul);
+}
+
+.modo tbody tr{
+    border-radius: var(--bordes-div);
+}
+
+.modo tbody tr td:first-child{
+    border-top-left-radius: var(--bordes-div);
+    border-bottom-left-radius: var(--bordes-div);
+}
+
+.modo tbody tr td:last-child{
+    border-top-right-radius: var(--bordes-div);
+    border-bottom-right-radius: var(--bordes-div);
+}
+
+table tbody tr td {
+    background-color: var(--color-blanco);
+    color: black;
 }
