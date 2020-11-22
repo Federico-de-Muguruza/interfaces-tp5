@@ -1,7 +1,7 @@
 /*Indice
-linea ____________________________________ Contenido
-10 _________________________________________Opciones generales(comunes a todos los html)
-87 ________________________________________Cambios en colores a botones an caso de usar distintos a bootstrap
+linea ------------------------------------- Contenido
+10 ________________________________________Opciones generales(comunes a todos los html)
+87 ________________________________________Cambios en colores a botones en caso de usar distintos a bootstrap
 104 _______________________________________estilo del scroll
 122 _______________________________________Menu recomendaciones (estilos asociados a dicho html)
 200 _______________________________________Menu general (estilos asociados a dicho html)
@@ -203,5 +203,21 @@ li{
 .configuracion-menu{
     text-align: center;
     /* padding: 10px; */
+}
+
+.configuracion-menu a{
+    width: 100%;
+}
+
+.icono-perfil svg{
+    margin: 0;
+    fill: var(--color-blanco);
+}
+
+.icono-perfil {
+    border: solid 2px var(--color-blanco);
+    border-radius: 100%;
+    max-width: 30px;
+    padding: 0;
 }
 
