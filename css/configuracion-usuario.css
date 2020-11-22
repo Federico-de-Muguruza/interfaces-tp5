@@ -1,3 +1,12 @@
+/*Indice
+linea ____________________________________ Contenido
+10 _________________________________________Opciones generales(comunes a todos los html)
+87 ________________________________________Cambios en colores a botones an caso de usar distintos a bootstrap
+104 _______________________________________estilo del scroll
+122 _______________________________________Menu recomendaciones (estilos asociados a dicho html)
+200 _______________________________________Menu general (estilos asociados a dicho html)
+*/
+
 :root {
     --color-fondo-oscuro: #212121; /*esta en hexadecimal*/
     --color-fondo-claro: #333333;
@@ -24,23 +33,6 @@ Para usarla solo basta con declarar var() y dentro escribir la variable a usar.
 
 *{
     color: var(--color-blanco, white);
-}
-
-/* thumb es la barra y track es el espacio de detras*/
-
-::-webkit-scrollbar {
-    -webkit-appearance: none;
-    width: 0.7rem;
-}
-
-::-webkit-scrollbar-thumb {
-    background: var(--color-scoll-barra);
-    border-radius: 8px;
-}
-
-::-webkit-scrollbar-track {
-    background: var(--color-scroll-fondo);
-    border-radius: 8px;
 }
 
 .inexistente{
@@ -77,6 +69,23 @@ body{
     justify-content: space-between;
 }
 
+.titulo-configuracion{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-fondo-claro);
+}
+
+svg{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*____________________________________________________Cambio colores btones en caso de hacerlo____________________________________________*/
+
 .btn-editar {
     background-color: var(--color-azul-editar);
     border: none;
@@ -91,6 +100,26 @@ body{
     background-color: var(--color-rojo-cancelar);
     border: none;
 }
+
+/*____________________________________________________SCROLL____________________________________________*/
+/* thumb es la barra y track es el espacio de detras*/
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 0.7rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-scoll-barra);
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-scroll-fondo);
+    border-radius: 8px;
+}
+
+/*____________________________________________________Menu recomendaciones____________________________________________*/
 
 #gusta-positivo li{
     background-color: var(--color-verde-aceptar);
@@ -168,17 +197,10 @@ li{
     color: black;
 }
 
-.titulo-configuracion{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    background-color: var(--color-fondo-claro);
+/*____________________________________________________Menu general____________________________________________*/
+
+.configuracion-menu{
+    text-align: center;
+    /* padding: 10px; */
 }
 
-svg{
-    margin-right: 10px;
-    margin-left: 10px;
-}
