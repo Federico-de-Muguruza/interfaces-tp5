@@ -1,0 +1,166 @@
+<html>
+
+<head>
+
+    <title>Olvidaste la contraseña en Spoilerfive</title>
+    <link rel="stylesheet" href="/css/recuperar-contraseña.css"/>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" />
+
+
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <link rel="stylesheet" href="../css/bootstrap.min.css">
+                <link rel="stylesheet" href="../css/footer.css">
+
+                <link rel="stylesheet" href="../css/recuperar-contraseña.css">
+
+
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">                <link rel="stylesheet" href="../css/bootstrap.min.css">
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700" />
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css" />
+
+                <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body class="bg-gradient-primary">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-9 col-lg-12 col-xl-10">
+                <div class="card shadow-lg o-hidden border-0 my-5">
+                    <div class="card-body p-0">
+                        <div class="row fondo">
+                            <div class="col-lg-6 d-none d-lg-flex">
+                                <div class="flex-grow-1 bg-password-image imagen"></div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="p-5">
+                                    <div class="text-center">
+                                        <h4 class="text-dark mb-2">¿Olvidaste tu contraseña?</h4>
+                                        <p class="mb-4">Ingresa tu correo electrónico y te enviaremos un enlace para restablecer tu contraseña.</p>
+                                    </div>
+                                    <form class="user">
+
+                                        <label>Correo electronico</label>
+                                        <div class="form-group"><input onkeyup="check()" type="email" class="form-control form-control-user" id="input-1" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Ingresa tu correo electrónico" name="email" /></div>
+                                        
+                                        <div class="field">
+
+                                                <label>Confirmar correo electrónico</label>
+
+                                                <input onkeyup="check()" id="input-2" type="email"  class="form-control form-control-user"  id="input-2"  id="exampleInputEmail"  aria-describedby="emailHelp" autocomplete="off" name="email" placeholder="Ingresa tu correo electrónico">
+                                            
+                                                <div class="icons">
+                                                    <span class="icon2 fas fa-check"></span>
+                                                </div>
+                                        </div>
+                                          <div class="error-text">
+                                           Confirmación de correo incorrecta
+                                        </div>
+
+                                        <div class="row" style="margin-top: 20px;"> 
+                                            <div class="col-1"></div>
+
+                                            <div class="col-1"> <button onclick="location.href='/html/inicio-sinregistrar.html'" class="btn btn-danger text-white btn-user" 
+                                                type="submit">Cancelar</button>
+                                            </div> 
+                                            
+                                                <div class="col-4"></div>
+                                            
+                                            <div class="col-4"><button onclick="location.href='/html/inicio-sinregistrar.html'" class="btn btn-success text-white btn-user" 
+                                                type="submit">Restaurar</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    
+                                    <div class="text-center">
+                                        <hr /><a class="small" href="/html/registrarse.html">Crear cuenta</a></div>
+                                    <div class="text-center"><a class="small" href="/html/iniciar-sesion.html">Iniciar sesión</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h5>Comenzar</h5>
+                    <ul>
+                        <li><a href="/html/inicio-sinregistrar.html"">Inicio</a></li>
+                        <li><a href="/html/registrarse.html">Registrarse</a></li>
+                        <li><a href="#">Descarga</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h5>Soporte</h5>
+                    <ul>
+                        <li><a href="/html/contacto.html">Contáctanos</a></li>
+                        <li><a href="/html/preguntas-frecuentes.html">Ayuda</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="#">Terminos y condiciones</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="social-icons "><img src="/css/images/icons/facebook.png"><a href="www.facebook.com"><i class="icon-facebook"></i></a><img src="/css/images/icons/instagram.png" ><a href="/css/images/icons/instagram.png" ><i class=" ion-social-instagram-outline"></i></a><img src="/css/images/icons/twitter.png"><a href="/css/images/icons/twitter.png"><i class=" ion-social-twitter"></i></a><img src="/css/images/icons/snapchat.png"><a href="/css/images/icons/snapchat.png"><i class=" ion-social-snapchat"></i></a></div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>Spoilerfive © 2020</p>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+<script>
+    
+    const email = document.querySelector("#input-2");
+    const icon1 = document.querySelector(".icon1");
+    const icon2 = document.querySelector(".icon2");
+    const error = document.querySelector(".error-text");
+
+
+    let regExp = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+
+     //input2= document.getElementById("input-2");
+    function check(){
+      let input1=  document.getElementById("input-1").value;
+      let input2=  document.getElementById("input-2").value;
+
+      if(input1===input2){
+        email.style.borderColor = "#27ae60";
+        email.style.background = "#eafaf1";
+        icon2.style.display = "block";
+        error.style.display = "none";
+      
+      }else{
+        email.style.borderColor = "#e74c3c";
+        email.style.background = "#fceae9";
+        icon2.style.display = "none";
+        error.style.display = "block";
+  
+      }
+      if(email.value == ""){
+        email.style.borderColor = "lightgrey";
+        email.style.background = "#fff";
+        icon2.style.display = "none";
+        error.style.display = "none";
+     
+      }
+    }
+  </script>
