@@ -8,7 +8,7 @@ body {
 	background-color: #212121;
 }
 
-.btn-success {
+/* .btn-success {
 	background-color: #61FF7B;
 	border: none;
   }
@@ -16,8 +16,8 @@ body {
 .btn-danger {
 	background-color: #FF7B61;
 	border: none;
-  }
+  } */
 
-.btn-success span, .btn-danger span {
+/* .btn-success span, .btn-danger span {
 	color: black;
-  }
+  } */
