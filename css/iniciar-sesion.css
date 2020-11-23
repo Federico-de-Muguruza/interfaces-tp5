@@ -1,6 +1,6 @@
 
 .bg-gradient-primary {
-    background-color: black;
+    background-color: #212121;
     background-size: cover;
   }
   
@@ -33,7 +33,7 @@
   .container, .container-fluid {
       padding-left: 1.5rem;
       padding-right: 1.5rem;
-    }
+  }
     
     @media (min-width:1200px) {
       .container {
@@ -202,6 +202,8 @@
     
     .p-5 {
       padding: 3rem!important;
+      background: #333;
+      color: #fff;
     }
     
     .text-center {
@@ -214,6 +216,10 @@
     
     .mb-2, .my-2 {
       margin-bottom: .5rem!important;
+    }
+
+    .fondo {
+      background: #333!important;
     }
     
     .h4, h4 {

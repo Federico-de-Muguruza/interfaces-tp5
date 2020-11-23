@@ -1,5 +1,5 @@
 .bg-gradient-primary {
-    background-color: black;
+    background-color: #212121;
     background-size: cover;
   }
   
@@ -26,7 +26,7 @@
     font-family: sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: #212121;
   }
   
   .container, .container-fluid {
@@ -201,6 +201,12 @@
     
     .p-5 {
       padding: 3rem!important;
+      background-color: #333;
+      color: #fff;
+    }
+
+    .fondo {
+      background: #333;
     }
     
     .text-center {
