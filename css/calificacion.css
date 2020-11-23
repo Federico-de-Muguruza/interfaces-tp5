@@ -1,4 +1,5 @@
 .container {
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
     padding: 0!important;
@@ -27,6 +28,7 @@
 .bi {
     font-size: 1.5rem;
     margin-left: 5px;
+    cursor: pointer;
 }
 
 .title-calificacion h3 {
@@ -42,6 +44,7 @@
 
 .img-theme img {
     width: 50%;
+    max-height: 200px;
 }
 
 .description {
@@ -53,10 +56,11 @@
 }
 
 .opiniones {
+    width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin: 10px;
+    margin-bottom: 10px;
 }
 
 .opiniones p {
@@ -123,10 +127,6 @@
     margin-top: 10px;
 }
 
-.fecha {
-    color: #777;
-}
-
 .bi-star-fill {
     color: yellow;
 }
@@ -134,6 +134,18 @@
 .other-comments {
     display: flex;
     flex-direction: column-reverse;
+}
+
+@media (min-width: 1200px) {
+
+    .img-theme img {
+        max-height: 500px;
+    }
+
+    .container {
+        max-width: 50%!important;
+    }
+
 }
 
 

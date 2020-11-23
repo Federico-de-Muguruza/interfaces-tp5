@@ -1,6 +1,6 @@
 let title = document.querySelector("#title");
 let box_option_genero = document.querySelector("#box-option-genero");
-let box_option_tipo = document.querySelector("#box-option-tipo");
+// let box_option_tipo = document.querySelector("#box-option-tipo");
 let box_option_idioma = document.querySelector("#box-option-idioma");
 let box_option_fecha = document.querySelector("#box-option-fecha");
 let box_option_duracion = document.querySelector("#box-option-duracion");
@@ -48,7 +48,7 @@ function quitarPadding() {
     box_option_idioma.style.padding = 0;
     box_option_fecha.style.padding = 0;
     box_option_genero.style.padding = 0;
-    box_option_tipo.style.padding = 0;
+    // box_option_tipo.style.padding = 0;
     box_option_duracion.style.padding = 0;
 }
 
@@ -56,7 +56,7 @@ function agregarPadding() {
     box_option_idioma.style.padding = 10;
     box_option_fecha.style.padding = 10;
     box_option_genero.style.padding = 10;
-    box_option_tipo.style.padding = 10;
+    // box_option_tipo.style.padding = 10;
     box_option_duracion.style.padding = 10;
 }
 
@@ -134,43 +134,43 @@ function mostrarIdiomas() {
     }  
 }
 
-box_option_tipo.addEventListener("click", mostrarTipos);
+// box_option_tipo.addEventListener("click", mostrarTipos);
 
-function mostrarTipos() {
+// function mostrarTipos() {
 
-    quitarPadding();
+//     quitarPadding();
 
-    title.innerHTML = "Tipo";
+//     title.innerHTML = "Tipo";
 
-    let ocultar = document.querySelectorAll("#ocultar");
+//     let ocultar = document.querySelectorAll("#ocultar");
 
-    for (let i = 0; i < ocultar.length; i++) {
-        ocultar[i].classList.toggle("d-none");
-    }
+//     for (let i = 0; i < ocultar.length; i++) {
+//         ocultar[i].classList.toggle("d-none");
+//     }
 
-    let box_tipos = document.querySelector("#box-tipos");
+//     let box_tipos = document.querySelector("#box-tipos");
 
-    box_tipos.classList.toggle("d-none");
+//     box_tipos.classList.toggle("d-none");
 
-    if (title.innerHTML == "Tipo") {
-        document.querySelector("#btn-cancelar").addEventListener("click", () => {
-            for (let i = 0; i < ocultar.length; i++) {
-                ocultar[i].classList.remove("d-none");
-            }
-            box_tipos.classList.add("d-none");
-            title.innerHTML = "Filtrar por";
-            agregarPadding();
-        })
-        document.querySelector("#btn-aplicar").addEventListener("click", () => {
-            for (let i = 0; i < ocultar.length; i++) {
-                ocultar[i].classList.remove("d-none");
-            }
-            box_tipos.classList.add("d-none");
-            title.innerHTML = "Filtrar por";
-            agregarPadding();
-        })  
-    }
-}
+//     if (title.innerHTML == "Tipo") {
+//         document.querySelector("#btn-cancelar").addEventListener("click", () => {
+//             for (let i = 0; i < ocultar.length; i++) {
+//                 ocultar[i].classList.remove("d-none");
+//             }
+//             box_tipos.classList.add("d-none");
+//             title.innerHTML = "Filtrar por";
+//             agregarPadding();
+//         })
+//         document.querySelector("#btn-aplicar").addEventListener("click", () => {
+//             for (let i = 0; i < ocultar.length; i++) {
+//                 ocultar[i].classList.remove("d-none");
+//             }
+//             box_tipos.classList.add("d-none");
+//             title.innerHTML = "Filtrar por";
+//             agregarPadding();
+//         })  
+//     }
+// }
 
 box_option_genero.addEventListener("click", mostrarGeneros);
 

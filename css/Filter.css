@@ -59,10 +59,31 @@ p {
     flex-direction: column;
     width: 50%;
     padding: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 225px;
+}
+
+.box-generos::-webkit-scrollbar {
+    width: 12px;              
+}
+
+.box-generos::-webkit-scrollbar-track {
+    background: #333;        
+}
+
+.box-generos::-webkit-scrollbar-thumb {
+    background-color: #333;   
+    border-radius: 20px;      
+    border: 1px solid #777; 
 }
 
 .box-genero {
     width: 100%;
+}
+
+.form-check-input {
+    margin: 20px!important;
 }
 
 .quitarPadding {
@@ -73,7 +94,7 @@ p {
     padding: 10px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1200px) {
     .filter {
         width: 50%;
     }
@@ -93,4 +114,4 @@ p {
     /* .bi {
         display: none;
     } */
-  }
+}
