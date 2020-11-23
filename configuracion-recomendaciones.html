@@ -9,57 +9,63 @@
 </head>
 <body>
 
-    <header class="titulo-configuracion d-flex align-items-center">
-        <a href="./configuracion-menu-general.html">
-            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
-            </svg>
-        </a>
-        <h1>Recomendaciones</h1>
-    </header>
+    <div class="container-principal">
+        <header class="titulo-configuracion">
+            <a href="./configuracion-menu-general.html">
+                <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                </svg>
+            </a>
+            <h1>Recomendaciones</h1>
+        </header>
+    
+        <h2>Sus gustos</h2>
+        <section class="caja caja-tabla">
+            <div class="columnas encabezado">
+                <p>Me gusta</p>
+                <p>No me gusta</p>
+            </div>
+            <div class="columnas gustos">
+                <ul id="gusta-positivo">
+                    <li>Jazz</li>
+                    <li>Latino</li>
+                </ul>
+                <ul id="gusta-negativo">
+                    <li>Rock</li>
+                </ul>
+            </div>
+            
+            <div class="columnas">
+                <button type="button" class="btn btn-info">Agregar</button>
+                <button type="button" class="btn btn-info">Agregar</button>
+            </div>
+        </section>
+    
+        <h2>Sus modos de escucha</h2>
+        <section class="caja caja-tabla">
+            <div class="columnas encabezado">
+                <p>Modo</p>
+                <p>Horario</p>
+            </div>
+            <div class="columnas modo-contenido">
+                <ul id="modo-tipo">
+                    <li>Nocturno</li>
+                    <li>Trabajo</li>
+                </ul>
+                <ul id="modo-horario">
+                    <li>20:00 - 5:30</li>
+                    <li>10:00 - 18:00</li>
+                </ul>
+            </div>
+            
+            <div class="columnas">
+                <button type="button" class="btn btn-info">Agregar</button>
+            </div>
+        </section>
+    </div>
 
-    <h2>Sus gustos</h2>
-    <section class="caja caja-tabla">
-        <div class="columnas encabezado">
-            <p>Me gusta</p>
-            <p>No me gusta</p>
-        </div>
-        <div class="columnas gustos">
-            <ul id="gusta-positivo">
-                <li>Jazz</li>
-                <li>Latino</li>
-            </ul>
-            <ul id="gusta-negativo">
-                <li>Rock</li>
-            </ul>
-        </div>
-        
-        <div class="columnas">
-            <button type="button" class="btn btn-info">Agregar</button>
-            <button type="button" class="btn btn-info">Agregar</button>
-        </div>
-    </section>
-
-    <h2>Sus modos de escucha</h2>
-    <section class="caja caja-tabla">
-        <div class="columnas encabezado">
-            <p>Modo</p>
-            <p>Horario</p>
-        </div>
-        <div class="columnas modo-contenido">
-            <ul id="modo-tipo">
-                <li>Nocturno</li>
-                <li>Trabajo</li>
-            </ul>
-            <ul id="modo-horario">
-                <li>20:00 - 5:30</li>
-                <li>10:00 - 18:00</li>
-            </ul>
-        </div>
-        
-        <div class="columnas">
-            <button type="button" class="btn btn-info">Agregar</button>
-        </div>
-    </section>
+    <div class="container-secundario inexistente"></div>
+    
+    <script type="text/javascript" src="./js/configuracion-usuario.js"></script>
 </body>
 </html>
