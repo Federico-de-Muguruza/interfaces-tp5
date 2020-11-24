@@ -73,6 +73,10 @@ element.style {
   margin-left: -15px;
 }
 
+.fondo {
+  background: #040019;
+}
+
 @media (min-width:576px) {
     .col-sm-3 {
       -ms-flex: 0 0 25%;
