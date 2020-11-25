@@ -118,9 +118,16 @@
 
 .box-comment {
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
     background-color: #333;
     border-radius: 10px;
+    transition: 1s;
+}
+
+.box-comment:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px black;
+    transition: 1s;
 }
 
 .comment {
