@@ -1,0 +1,58 @@
+.reproductor {
+    display: flex;
+    flex-direction: column;
+    background: #040019;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.reproductor header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.reproductor-music-name {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+/* .reproductor-icon {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.reproductor-icon svg {
+    color: #fff;
+} */
+
+.reproductor-sound {
+    width: 33%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+.reproductor-options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+    width: 100%;
+    align-items: center;
+}
+
+.reproductor-options-play {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+
+.reproductor-star-heart {
+    display: flex;
+    width: 33%;
+    justify-content: space-around;
+}

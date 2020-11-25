@@ -7,18 +7,17 @@
 body {
 	background-color: #212121;
 	font-family: 'Heebo', sans-serif!important;
+	margin: 0;
 }
 
-/* .btn-success {
-	background-color: #61FF7B;
-	border: none;
-  }
+.bi {
+	cursor: pointer;
+}
 
-.btn-danger {
-	background-color: #FF7B61;
-	border: none;
-  } */
+.bi-suit-heart-fill, .bi-suit-heart {
+	color: pink;
+}
 
-/* .btn-success span, .btn-danger span {
-	color: black;
-  } */
+.bi-star, .bi-star-fill {
+	color: yellow;
+}
