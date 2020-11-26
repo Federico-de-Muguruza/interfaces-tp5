@@ -18,15 +18,15 @@
             <h1>Perfil</h1>
         </header>
         
-        <section class="caja">
+        <section class="caja" id="form-nombre">
             <h2>Nombre de perfil</h2>
     
             <div class="renglon">
                 <p class="info">Usuario 123</p>
-                <button type="button" class="btn btn-info">Editar</button>
+                <button type="button" class="btn btn-info btn-abrir-perfil btn-toggle-perfil" for="form-nombre">Editar</button>
             </div>
             
-            <div class="inexistente">
+            <form class="inexistente">
                 <div class="form-group">
                     <label for="input-nombre">Ingrese nuevo nombre de perfil</label>
                     <input type="text" class="form-control" id="input-nombre" placeholder="Nombre anterior">
@@ -35,22 +35,22 @@
                     </small>
                 </div>
                 <div class="box-btn d-flex justify-content-around">
-                    <button type="button" class="btn btn-danger">Cancelar</button>
-                    <button type="button" class="btn btn-success">Aceptar</button>
+                    <button type="button" class="btn btn-danger btn-toggle-perfil" for="form-nombre">Cancelar</button>
+                    <button type="button" class="btn btn-success btn-toggle-perfil" for="form-nombre">Aceptar</button>
                 </div>
-            </div>
+            </form>
             
         </section>
     
-        <section class="caja">
+        <section class="caja" id="form-correo">
             <h2>Correo electronico</h2>
     
             <div class="renglon">
                 <p class="info">Usuario123@ejemplo.com</p>
-                <button type="button" class="btn btn-info">Editar</button>
+                <button type="button" class="btn btn-info btn-abrir-perfil btn-toggle-perfil" for="form-correo">Editar</button>
             </div>
             
-            <div class="inexistente">
+            <form class="inexistente">
                 <div class="form-group">
                     <label for="input-correo">Ingrese nuevo correo</label>
                     <input type="text" class="form-control" id="input-correo" placeholder="Correo anterior">
@@ -66,22 +66,22 @@
                     </small>
                 </div>
                 <div class="box-btn d-flex justify-content-around">
-                    <button type="button" class="btn btn-danger">Cancelar</button>
-                    <button type="button" class="btn btn-success">Aceptar</button>
+                    <button type="button" class="btn btn-danger btn-toggle-perfil" for="form-correo">Cancelar</button>
+                    <button type="button" class="btn btn-success btn-toggle-perfil" for="form-correo">Aceptar</button>
                 </div>
-            </div>
+            </form>
             
         </section>
     
-        <section class="caja">
+        <section class="caja" id="form-contraseña">
             <h2>Contraseña</h2>
     
             <div class="renglon">
                 <p class="info">**********************</p>
-                <button type="button" class="btn btn-info">Editar</button>
+                <button type="button" class="btn btn-info btn-abrir-perfil btn-toggle-perfil" for="form-contraseña">Editar</button>
             </div>
             
-            <div class="inexistente">
+            <form class="inexistente">
                 <div class="form-group">
                     <label for="input-contrasenia-actual">Ingrese su contraseña actual</label>
                     <input type="text" class="form-control" id="input-contrasenia-actual" placeholder="*****************">
@@ -104,22 +104,22 @@
                     </small>
                 </div>
                 <div class="box-btn d-flex justify-content-around">
-                    <button type="button" class="btn btn-danger">Cancelar</button>
-                    <button type="button" class="btn btn-success">Aceptar</button>
+                    <button type="button" class="btn btn-danger btn-toggle-perfil" for="form-contraseña">Cancelar</button>
+                    <button type="button" class="btn btn-success btn-toggle-perfil" for="form-contraseña">Aceptar</button>
                 </div>
-            </div>
+            </form>
             
         </section>
     
-        <section class="caja">
+        <section class="caja" id="form-sexo">
             <h2>Sexo</h2>
     
             <div class="renglon">
                 <p class="info">Masculino</p>
-                <button type="button" class="btn btn-info">Editar</button>
+                <button type="button" class="btn btn-info btn-abrir-perfil btn-toggle-perfil" for="form-sexo">Editar</button>
             </div>
             
-            <div class="inexistente">
+            <form class="inexistente">
                 <div class="form-group col-md-4">
                     <label for="input-sexo">Seleccione una nueva opcion</label>
                     <select id="input-sexo" class="form-control">
@@ -129,10 +129,10 @@
                     </select>
                 </div>
                 <div class="box-btn d-flex justify-content-around">
-                    <button type="button" class="btn btn-danger">Cancelar</button>
-                    <button type="button" class="btn btn-success">Aceptar</button>
+                    <button type="button" class="btn btn-danger btn-toggle-perfil" for="form-sexo">Cancelar</button>
+                    <button type="button" class="btn btn-success btn-toggle-perfil" for="form-sexo">Aceptar</button>
                 </div>
-            </div>
+            </form>
             
         </section>
     </div>
