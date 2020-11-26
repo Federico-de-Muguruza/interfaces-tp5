@@ -97,6 +97,10 @@ svg{
     margin-left: 10px;
 }
 
+h2 {
+    font-size: 1em;
+}
+
 /*____________________________________________________Cambio colores btones en caso de hacerlo____________________________________________*/
 
 .btn-editar {
