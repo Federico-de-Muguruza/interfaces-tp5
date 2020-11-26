@@ -4,11 +4,15 @@
 	display: none;
 }
 
+ul {
+	list-style-type: none;
+}
+
 body {
 	background-color: #212121;
 	font-family: 'Heebo', sans-serif!important;
 	margin: 0;
-	overflow-x: hidden;
+	overflow-x: hidden!important;
 }
 
 .bi {

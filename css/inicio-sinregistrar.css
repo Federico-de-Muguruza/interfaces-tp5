@@ -24,6 +24,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+  overflow-x: hidden!important;
 }
 
 element.style {
@@ -35,6 +36,7 @@ element.style {
   .clean-block.clean-hero {
     min-height: 680px;
   }
+
 }
 
 .icon-star{
