@@ -2,6 +2,7 @@
 linea ------------------------------------- Contenido
 10 ________________________________________Opciones generales(comunes a todos los html)
 87 ________________________________________Cambios en colores a botones en caso de usar distintos a bootstrap
+   ________________________________________Tamaño de los switches
 104 _______________________________________estilo del scroll
 122 _______________________________________Menu recomendaciones (estilos asociados a dicho html)
 200 _______________________________________Menu general (estilos asociados a dicho html)
@@ -100,6 +101,12 @@ svg{
 .btn-cancelar {
     background-color: var(--color-rojo-cancelar);
     border: none;
+}
+
+/*___________________________________________________Tamaño de los switches____________________________________*/
+
+.custom-control.custom-switch input{
+    font-size: x-small;
 }
 
 /*____________________________________________________SCROLL____________________________________________*/
