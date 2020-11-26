@@ -5,11 +5,7 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
-.text p {
-  font-size: 2em!important;
-}
-
-.text h2, .text p {
+.text h2, .text h3 {
   text-shadow: 1px 1px 1px black;
 }
 
