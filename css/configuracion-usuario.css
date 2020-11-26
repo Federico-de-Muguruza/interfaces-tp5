@@ -88,6 +88,8 @@ body{
     display: flex;
     flex-direction: row;
     /* background-color: var(--color-fondo-claro); */
+    display: flex;
+    align-items: center;
 }
 
 svg{
