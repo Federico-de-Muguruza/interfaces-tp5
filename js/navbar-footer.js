@@ -23,3 +23,11 @@ fetch("../html/footer.html").then(function(r){
         containerFoot.innerHTML = html;
     })
 })
+
+let containerMusic = document.querySelector(".contenedor-reproductor");
+if(containerMusic)
+fetch("../html/reproductor.html").then(function(r){
+    r.text().then(function(html) {
+        containerMusic.innerHTML = html;
+    })
+})
