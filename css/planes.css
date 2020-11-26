@@ -1,0 +1,14 @@
+.title-planes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title-planes svg {
+    font-size: 1.5em;
+}
+
+.title-planes h3 {
+    margin: 0px;
+    width: 90%;
+}
