@@ -1,14 +1,24 @@
-let containerNav = document.querySelector(".contenedor-nav");
-if(containerNav)
-fetch("../navbar.html").then(function(r){
+let containerNavDentro = document.querySelector(".contenedor-nav-dentro");
+if(containerNavDentro)
+fetch("../html/navbar-dentro.html").then(function(r){
     r.text().then(function(html) {
-        containerNav.innerHTML = html;
+        containerNavDentro.innerHTML = html;
     })
 })
 
+let containerNavFuera = document.querySelector(".contenedor-nav-fuera");
+if(containerNavFuera)
+fetch("../html/navbar-fuera.html").then(function(r){
+    r.text().then(function(html) {
+        containerNavFuera.innerHTML = html;
+    })
+})
+
+//contenedor-general
+
 let containerFoot = document.querySelector(".contenedor-footer");
 if(containerFoot)
-fetch("../footer.html").then(function(r){
+fetch("../html/footer.html").then(function(r){
     r.text().then(function(html) {
         containerFoot.innerHTML = html;
     })
