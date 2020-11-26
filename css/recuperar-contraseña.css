@@ -403,8 +403,7 @@ html {
     line-height: inherit;
   }
   
-  button {
-  }
+
   
   hr {
     margin-top: 1rem;
@@ -465,7 +464,7 @@ html {
 form .field .icons {
   position: absolute;
   right: 18%;
-  top: 63.2%;
+  top: 61.2%;
   transform: translateY(-50%);
 }
 
