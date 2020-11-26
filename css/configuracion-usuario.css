@@ -81,13 +81,13 @@ body{
 }
 
 .titulo-configuracion{
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100vw;
     display: flex;
     flex-direction: row;
-    background-color: var(--color-fondo-claro);
+    /* background-color: var(--color-fondo-claro); */
     display: flex;
     align-items: center;
 }
