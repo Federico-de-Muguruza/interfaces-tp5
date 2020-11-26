@@ -31,8 +31,23 @@
     cursor: pointer;
 }
 
-.title-calificacion h3 {
+.title-calificacion h2 {
     margin: 0 auto;
+}
+
+.box-calificar {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-calificar p {
+    margin: 0;
+}
+
+h4 {
+    margin: 25px 0px!important;
 }
 
 .img-theme {
@@ -98,7 +113,15 @@
 
 .no-opinion {
     color: yellow;
+}
+
+.your-comment header {
+    display: flex;
     font-size: 1.5em;
+}
+
+.username {
+    margin-right: 10px;
 }
 
 .your-comment label {
@@ -134,13 +157,14 @@
     margin-top: 10px;
 }
 
-/* .bi-star-fill {
-    color: yellow;
-} */
-
 .other-comments {
     display: flex;
     flex-direction: column-reverse;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
 }
 
 @media (min-width: 1200px) {
@@ -152,7 +176,6 @@
     .container {
         max-width: 50%!important;
     }
-
 }
 
 

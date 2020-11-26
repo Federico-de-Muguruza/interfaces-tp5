@@ -8,6 +8,7 @@ body {
 	background-color: #212121;
 	font-family: 'Heebo', sans-serif!important;
 	margin: 0;
+	overflow-x: hidden;
 }
 
 .bi {
@@ -20,4 +21,13 @@ body {
 
 .bi-star, .bi-star-fill {
 	color: yellow;
+}
+
+.checked {
+	color: yellow;
+}
+
+.fa-star {
+	cursor: pointer;
+	font-size: 1.5em!important;
 }
