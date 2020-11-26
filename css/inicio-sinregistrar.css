@@ -347,9 +347,9 @@ p {
 
 .feature-box .icon {
   font-size: 30px;
-  position: absolute;
+  position: relative;
   left: 25%;
-  top: 15px;
+  top: 0;
   width: 30px;
   text-align: center;
   color: #3b99e0;
