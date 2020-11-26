@@ -1,0 +1,21 @@
+.contenedor-general{
+    width: 100%;
+    height: auto;
+    /* padding: 0; */
+}
+
+.contenedor-reproductor{
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+/*___________________________________*/
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/*___________________________________*/
