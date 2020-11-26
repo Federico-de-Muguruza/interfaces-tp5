@@ -1,8 +1,31 @@
 element.style {
 }
+.img-box {
+  width: 10%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.img-box img {
+  width: 55%;
+}
 
 .black{
     background-color: black;
+}
+
+i {
+  font-size: 2em;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .img-box {
+    width: 40%;
+  }
+
+  i {
+      font-size: 1.5em;
+  }
 }
 
 #wrapper {
@@ -18,6 +41,12 @@ body {
   color: #858796;
   text-align: left;
   background-color: #fff;
+}
+
+.navbar {
+
+  background: #040019;
+  color: #fff;
 }
 
 html {
@@ -63,11 +92,16 @@ element.style {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  background: #040019;
+  color: #fff;
 }
 
 .navbar {
   position: relative;
   padding: .5rem 1rem;
+    background: #040019;
+    color: #fff;
+  
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -466,7 +500,10 @@ button:focus {
 }
 
 .border-0 {
-  border: 0!important;
+  border-top: 2%;
+  border-left: 2%;
+  border-right: 2%;
+  border-bottom: 2%;
 }
 
 @media (prefers-reduced-motion:reduce) {
@@ -529,6 +566,8 @@ button {
     background-color: #f8f9fc;
     width: 100%;
     overflow-x: hidden;
+
+    
   }
   
   .flex-column {
@@ -823,9 +862,7 @@ button {
     box-shadow: 0 0 0 .2rem rgba(78,115,223,.25);
   }
   
-  .border-0 {
-    border: 0!important;
-  }
+ 
   
   .bg-light {
     background-color: #f8f9fc!important;
@@ -1193,7 +1230,7 @@ button {
   }
   
   .topbar .navbar-search {
-    width: 25rem;
+    width: 15rem;
   }
   
   .mr-auto, .mx-auto {
@@ -1260,9 +1297,7 @@ button {
     box-shadow: 0 0 0 .2rem rgba(78,115,223,.25);
   }
   
-  .border-0 {
-    border: 0!important;
-  }
+
   
   .bg-light {
     background-color: #f8f9fc!important;
