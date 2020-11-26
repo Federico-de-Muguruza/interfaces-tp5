@@ -87,7 +87,7 @@ body{
     width: 100vw;
     display: flex;
     flex-direction: row;
-    background-color: var(--color-fondo-claro);
+    /* background-color: var(--color-fondo-claro); */
 }
 
 svg{
