@@ -232,7 +232,7 @@ li{
 
 @media only screen and (min-width: 600px) {
 
-    .container-secundario{
+    .container-secundario, .container-menu-configuracion{
         display: block;
         min-width: 250px;
         grid-column-start: 1; 
@@ -254,7 +254,11 @@ li{
         grid-row-gap:0;
     }
 
-    .container-principal {
+    .resto{
+        display: block;
+    }
+
+    .container-principal, .resto {
         min-width: 500px;
         grid-column-start: 2; 
         grid-row-start: 1;

@@ -1,4 +1,5 @@
 let container = document.querySelector(".container-secundario");
+if(container)
 fetch("../menu-configuracion.html").then(function(r){
     r.text().then(function(html) {
         container.innerHTML = html;
@@ -20,4 +21,14 @@ if(botonesAbrir) {
         }
     )
 })
+}
+
+let pagMenuConfig = document.querySelector(".resto");
+if (pagMenuConfig){
+    fetch("../configuracion-perfil.html").then(function(r){
+        r.text().then(function(html) {
+            pagMenuConfig.innerHTML = html;
+            pagMenuConfig.classList.add("inexistente");
+        })
+    })
 }
