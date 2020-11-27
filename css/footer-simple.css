@@ -6,6 +6,7 @@ a{
 
 .contenedor-general-footer{
     background-color: #040019;
+    color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,6 +20,10 @@ a{
 
 .contenedor-general-footer li, .contenedor-general-footer h5, .contenedor-general-footer p{
     text-align: center;
+}
+
+.contenedor-general-footer ul{
+    padding: 0; /*se superponia con estilo otra pagina*/
 }
 
 .social-icons{

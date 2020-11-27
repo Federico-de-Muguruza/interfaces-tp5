@@ -1,8 +1,7 @@
-.contenedor-general{
+/* .contenedor-general{
     width: 100%;
     height: auto;
-    /* padding: 0; */
-}
+} */
 
 .contenedor-reproductor{
     position: fixed;
@@ -11,11 +10,19 @@
     left: 0;
     width: 100%;
 }
+
+.contenedor-nav-fuera, .contenedor-nav-dentro {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 6;
+    width: 100%;
+}
 /*___________________________________*/
-body {
+/* body {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
-}
+} */
 /*___________________________________*/

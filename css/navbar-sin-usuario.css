@@ -1,4 +1,7 @@
 /* Comienzo navbar */
+.inexistente{
+  display: none;
+}
 
 .navbar {
     background: #040019;
@@ -15,7 +18,11 @@
     margin: 0;
     list-style-type: none;
   }
-  
+    
+  .navbar i {
+    font-size: 3em;
+  }
+
   .img-box {
     width: 10%;
     margin-right: 10px;
@@ -34,12 +41,19 @@
   .fa-bars {
     display: none!important;
   }
-  
+
+  .bar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
   .menu-oculto {
     display: none;
   }
-  
-  @media (max-width: 576px) {
+
+  @media only screen and (max-width: 600px) {
     .navbar header {
       width: 75%;
     }
@@ -48,31 +62,43 @@
       width: 15%;
     }
   
-    .navbar ul li {
+    .navbar ul, .navbar ul li {
       display: none;
-    }
-  
-    .navbar ul i {
-      font-size: 3em;
     }
   
     .fa-bars {
       display: flex!important;
     }
-  
+
     .menu-oculto {
+      display: block;
+    }
+
+    .menu-oculto{
+      display: none;
+    }
+
+      /* TODO: */
+
+    .existente {
+      position: relative;
+      width: 100%;
+      min-height: 200px;
       border-top: 1px solid #777;
       display: flex;
       justify-content: flex-end;
+      align-items: flex-end;
       background-color: #040019;
     }
   
-    .menu-oculto ul {
+    .existente ul {
+      width: 100%;
       margin: 0;
       padding: 10px;
       display: flex;
       align-items: center;
     }
+    
   }
   
   /* Fin navbar */
