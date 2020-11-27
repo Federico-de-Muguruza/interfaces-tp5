@@ -1,0 +1,53 @@
+a{
+    text-decoration: none;
+    color: #fff;
+    /* FIXME: hace guerra con los important! de bootstrap*/
+}
+
+.contenedor-general-footer{
+    background-color: #040019;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-general-footer div{
+    padding-top: 5%;
+    min-width: 168px;
+}
+
+.contenedor-general-footer li, .contenedor-general-footer h5, .contenedor-general-footer p{
+    text-align: center;
+}
+
+.contenedor-general-footer ul{
+    padding: 0; /*se superponia con estilo otra pagina*/
+}
+
+.social-icons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.social-icons img{
+    margin: 1%;
+}
+
+/*TODO: sacar los h5!!!!*/
+
+@media only screen and (min-width: 600px) {
+    .contenedor-general-footer div{
+        padding-top: 2%;
+    }
+
+    .bloques-footer{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: initial;
+    }
+}

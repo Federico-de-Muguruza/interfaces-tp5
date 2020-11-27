@@ -2,20 +2,32 @@
 
 .navbar {
     background: #040019;
-    color: #fff;
+    color: #fff!important;
   }
   
   .navbar h1 {
     cursor: pointer;
     margin: 0;
   }
+
+  .navbar a{
+    color:#fff!important;
+    display: flex;
+    flex-direction: row;
+  }
   
   .navbar ul {
+    color: #fff!important;
     display: flex;
     margin: 0;
     list-style-type: none;
     justify-content: space-around;
     width: 25%;
+  }
+
+  .icon-usuario{
+    display: flex;
+    flex-direction: row;
   }
 
   .navbar-title input {
@@ -91,10 +103,10 @@
     }
 
     .menu-oculto {
-        border-top: 1px solid #777;
+        border-top: 1px solid #777!important;
         display: flex;
         justify-content: flex-end;
-        background-color: #040019;
+        background-color: #040019!important;
       }
     
       .menu-oculto ul {
