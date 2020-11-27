@@ -60,7 +60,7 @@ body{
     overflow-y: scroll; */
     background-color: var(--color-fondo-oscuro); 
     padding: 6%; /* 22 * 100 / 360 = 6.1 de margen de los elementos*/
-    padding-top: 14%;
+    /* padding-top: 14%; */
 }
 
 .caja{
@@ -73,23 +73,26 @@ body{
     margin-top: 3.3%; 
 }
 
-.renglon{
+
+.renglon {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+
 .titulo-configuracion{
     position: relative;
     top: 0;
     left: 0;
-    width: 100vw;
+    /* width: 100vw; */
     display: flex;
     flex-direction: row;
     /* background-color: var(--color-fondo-claro); */
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 svg{
