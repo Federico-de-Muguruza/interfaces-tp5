@@ -101,7 +101,7 @@ function publicar(contador, stars) {
         date.innerHTML = dia + "/" + mes + "/" + anio;
 
         let btnEditar = crearComponente("button");
-        btnEditar.classList.add("btn-success");
+        btnEditar.classList.add("btn-primary");
         btnEditar.classList.add("bottom-btn");
         btnEditar.classList.add("btn");
         btnEditar.classList.add("btn-md");
