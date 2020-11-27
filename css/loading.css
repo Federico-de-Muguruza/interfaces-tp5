@@ -1,0 +1,13 @@
+.loading{
+  margin-top: 25%;
+  margin-left: 25%;
+  animation-name: loading;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;  
+}
+@keyframes loading {
+  50% {
+  transform: rotate(360deg);
+  } 
+}
