@@ -28,7 +28,7 @@ function mostrarDuracion() {
                 ocultar[i].classList.remove("d-none");
             }
             duracion.classList.add("d-none");
-            title.innerHTML = "Filtrar por";
+            title.innerHTML = "Filtrar por: Foo Fighters";
             agregarPadding();
         })
         document.querySelector("#btn-aplicar").addEventListener("click", () => {
@@ -36,7 +36,7 @@ function mostrarDuracion() {
                 ocultar[i].classList.remove("d-none");
             }
             duracion.classList.add("d-none");
-            title.innerHTML = "Filtrar por";
+            title.innerHTML = "Filtrar por: Foo Fighters";
             agregarPadding();
         })  
     }   
@@ -82,7 +82,7 @@ function mostrarFecha() {
                 ocultar[i].classList.remove("d-none");
             }
             fecha.classList.add("d-none");
-            title.innerHTML = "Filtrar por";
+            title.innerHTML = "Filtrar por: Foo Fighters";
             agregarPadding();
         })
         document.querySelector("#btn-aplicar").addEventListener("click", () => {
@@ -90,7 +90,7 @@ function mostrarFecha() {
                 ocultar[i].classList.remove("d-none");
             }
             fecha.classList.add("d-none");
-            title.innerHTML = "Filtrar por";
+            title.innerHTML = "Filtrar por: Foo Fighters";
             agregarPadding();
         })  
     }   
@@ -120,7 +120,7 @@ function mostrarIdiomas() {
                 ocultar[i].classList.remove("d-none");
             }
             box_idiomas.classList.add("d-none");
-            title.innerHTML = "Filtrar por";
+            title.innerHTML = "Filtrar por :Foo Fighters";
             agregarPadding();
         })
         document.querySelector("#btn-aplicar").addEventListener("click", () => {
@@ -128,7 +128,7 @@ function mostrarIdiomas() {
                 ocultar[i].classList.remove("d-none");
             }
             box_idiomas.classList.add("d-none");
-            title.innerHTML = "Filtrar por";
+            title.innerHTML = "Filtrar por: Foo Fighters";
             agregarPadding();
         })  
     }  
@@ -196,7 +196,7 @@ function mostrarGeneros() {
                 ocultar[i].classList.remove("d-none");
             }
             box_generos.classList.add("d-none");
-            title.innerHTML = "Filtrar por";
+            title.innerHTML = "Filtrar por: Foo Fighters";
             agregarPadding();
         })
         document.querySelector("#btn-aplicar").addEventListener("click", () => {
@@ -204,7 +204,7 @@ function mostrarGeneros() {
                 ocultar[i].classList.remove("d-none");
             }
             box_generos.classList.add("d-none");
-            title.innerHTML = "Filtrar por";
+            title.innerHTML = "Filtrar por: Foo Fighters";
             agregarPadding();
         })  
     }
