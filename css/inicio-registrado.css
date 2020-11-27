@@ -17,6 +17,17 @@ h2 {
     display: none;
 }
 
+.ver-mas p {
+    margin-left: 15px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ver-mas .fa-angle-right {
+    margin-left: 15px;
+}
+
 .music-recomendados, .music-mas-escuchado {
     background-color: #333333;
     padding: 10px;
@@ -45,7 +56,7 @@ h2 {
 
 .music-title {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-between; */
     align-items: center;
     margin-bottom: 20px;
 }
@@ -77,10 +88,6 @@ h2 {
 
     .recomendado-3, .recomendado-4, .recomendado-5, .lo-mas-escuchado-3, .lo-mas-escuchado-4, .lo-mas-escuchado-5 {
         display: block;
-    }
-
-    .music-title {
-        width: 25%;
     }
 
     .fa-play-circle {
