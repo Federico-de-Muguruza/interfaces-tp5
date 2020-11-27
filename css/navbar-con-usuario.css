@@ -84,7 +84,7 @@ html{
   }
 
 
-  @media (min-width: 576px) {
+  @media (max-width: 576px) {
     .navbar header {
       width: 60%;
     }
