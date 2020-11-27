@@ -3,6 +3,21 @@ if (containerNavDentro)
     fetch("../html/navbar-dentro.html").then(function (r) {
         r.text().then(function (html) {
             containerNavDentro.innerHTML = html;
+
+            //________________________funcionalidad navbar dentro_________________________
+            let dropdown = document.querySelector("#dropdown");
+            if(dropdown){
+                dropdown.onclick = () => {
+                    let menu_oculto = document.querySelector("#menu-oculto");
+
+                    console.log(menu_oculto);
+                    menu_oculto.classList.toggle("menu-oculto");
+                }
+            }
+
+            document.querySelector(".nav-home").addEventListener("click", function () {
+                window.location = "../html/inicio-registrado.html";
+            })
         })
     })
 
