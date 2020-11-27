@@ -154,6 +154,15 @@ height: 100%;
     transition: 1s;
 }
 
+.your-comment {
+    transition: 1s;
+}
+
+.your-comment:hover {
+    box-shadow: 10px 10px 10px black;
+    transition: 1s;
+}
+
 .box-comment:hover {
     /* transform: scale(1.05); */
     box-shadow: 10px 10px 10px black;
