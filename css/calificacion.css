@@ -147,7 +147,7 @@ h4 {
 }
 
 .box-comment:hover {
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
     box-shadow: 10px 10px 10px black;
     transition: 1s;
 }

@@ -6,12 +6,11 @@
     <link rel="stylesheet" href="/css/navperfil.css" />
     
     <link rel="stylesheet" href="/css/footer.css" />
-    <link rel="stylesheet" href="/css/playlist-album-podcast.css/">
     <link rel="stylesheet" href="/css/calificacion.css">
-
-
+    
+    
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="/css/playlist-album-podcast.css/">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">                <link rel="stylesheet" href="../css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -20,7 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css" />
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" />
-
+    
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">                <link rel="stylesheet" href="../css/bootstrap.min.css">
@@ -33,39 +32,48 @@
   
         <div class="d-flex flex-column" id="content-wrapper" style="background-color: #333333;">
             <div id="content">
-                <div class="">
-                    <img src="../images/acdc.jpg" alt="">
-                </div>
-        
-                <div class="description">
-                    <small class="text-secondary">Playlist</small>
-                    <h3>AC DC</h3>
-                    <div class="opiniones">
-                        <div class="stars">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
+                <div class="contenedor-general" style="background-color: #212121;">
+                    <div class="container">
+                        <div class="title-calificacion">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                              </svg>
+                            <h2>Calificaciones</h2>
                         </div>
-                        <p class="text-secondary">2 Opiniones</p>
-                    </div>
-                    <p class="text-secondary">7.434 Reproducciones</p>
-                </div>
+                
+                        <div class="img-theme">
+                            <img src="../images/acdc.jpg" alt="">
+                        </div>
+                
+                        <div class="description">
+                            <small class="text-secondary">Playlist</small>
+                            <h3>AC DC</h3>
+                            <div class="opiniones">
+                                <div class="stars">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                                <p class="text-secondary">2 Opiniones</p>
+                            </div>
+                            <p class="text-secondary">7.434 Reproducciones</p>
+                        </div>
             <div class="container-fluid" style="margin-top: 1%;">
                 <div class="card shadow">
                
                     
-                    <div class="card-body">
+                    <div class="card-body" style="background-color: #333">
                         <div class="row">
                             <div class="col-md-6 text-nowrap">
-                                <div id="dataTable_length" class="dataTables_length" aria-controls="dataTable"><label>Mostrar<select class="form-control form-control-sm custom-select custom-select-sm"><option value="10" selected>10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select></label></div>
+                                <div id="dataTable_length" class="dataTables_length" aria-controls="dataTable" style="color: #fff; background: #333"><label">Mostrar<select class="form-control form-control-sm custom-select custom-select-sm"><option value="10" selected>10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select></label></div>
                             </div>
                       
                         </div>
                         <div class="table-responsive table mt-2" id="dataTable" role="grid" aria-describedby="dataTable_info">
                             <table class="table dataTable my-0" id="dataTable" style="text-align: center;">
-                                <thead style="text-align: center;">
+                                <thead style="text-align: center; color: #fff">
                                     <tr>
                                         <th>Escuchar</th>
                                         <th>Nombre</th>
@@ -80,7 +88,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
+                                    <tr style="color: #fff">
                                         <td><i class="far fa-play-circle"></i></td>
                                         <td>Highway to Hell</td>
 
@@ -93,7 +101,7 @@
                                         <td> <i class="far fa-star"></i></td>
 
                                     </tr>
-                                    <tr>
+                                    <tr style="color: #fff">
                                         <td><i class="far fa-play-circle"></i>   </td>
                                         <td>Back In Black</td>
 
@@ -105,7 +113,7 @@
                                         <td><i class="fas fa-share-alt"></i></td>
                                         <td> <i class="far fa-star"></i></td>
                                     </tr>
-                                    <tr>
+                                    <tr style="color: #fff">
                                         <td><i class="far fa-play-circle"></i>  </td>
                                         <td>Thundertruck</td>
 
@@ -119,7 +127,7 @@
                                         <td><i class="fas fa-share-alt"></i></td>
                                         <td> <i class="far fa-star"></i></td>
                                     </tr>
-                                    <tr>
+                                    <tr style="color: #fff">
                                         <td><i class="far fa-play-circle"></i>  </td>
                                         <td>Shoot In The Dark</td>
 
@@ -132,7 +140,7 @@
                                         <td><i class="fas fa-share-alt"></i></td>
                                         <td> <i class="far fa-star"></i></td>
                                     </tr>
-                                    <tr>
+                                    <tr style="color: #fff">
                                         <td><i class="far fa-play-circle"></i>   </td>
                                         <td>Rock N Roll Train</td>
 
@@ -146,7 +154,7 @@
                                         <td><i class="fas fa-share-alt"></i></td>
                                         <td> <i class="far fa-star"></i></td>
                                     </tr>
-                                    <tr>
+                                    <tr style="color: #fff">
                                         <td><i class="far fa-play-circle"></i>   </td>
                                         <td>Kick you when You're Down</td>
 
@@ -160,7 +168,7 @@
                                         <td><i class="fas fa-share-alt"></i></td>
                                         <td> <i class="far fa-star"></i></td>
                                     </tr>
-                                    <tr>
+                                    <tr style="color: #fff">
                                         <td><i class="far fa-play-circle"></i>   </td>
                                         <td>You Shook Me All Night Long</td>
 
@@ -173,7 +181,7 @@
                                         <td><i class="fas fa-share-alt"></i></td>
                                         <td> <i class="far fa-star"></i></td>
                                     </tr>
-                                    <tr>
+                                    <tr style="color: #fff">
                                         <td><i class="far fa-play-circle"></i>  </td>
                                         <td>Demon Fire</td>
 
@@ -186,7 +194,7 @@
                                         <td><i class="fas fa-share-alt"></i></td>
                                         <td> <i class="far fa-star"></i></td>
                                     </tr>
-                                    <tr>
+                                    <tr style="color: #fff">
                                         <td><i class="far fa-play-circle"></i>  </td>
                                         <td>TNT</td>
 
@@ -199,7 +207,7 @@
                                         <td><i class="fas fa-share-alt"></i></td>
                                         <td> <i class="far fa-star"></i></td>
                                     </tr>
-                                    <tr>
+                                    <tr style="color: #fff">
                                         <td><i class="far fa-play-circle"></i>   </td>
                                         <td>Hells Bells</td>
 
@@ -219,16 +227,16 @@
                         </div>
                         <div class="row">
                             <div class="col-md-6 align-self-center">
-                                <p id="dataTable_info" class="dataTables_info" role="status" aria-live="polite">Mostrando  10 de 27</p>
+                                <p id="dataTable_info" class="dataTables_info" role="status" aria-live="polite" style="color: #fff">Mostrando  10 de 27</p>
                             </div>
                             <div class="col-md-6">
                                 <nav class="d-lg-flex justify-content-lg-end dataTables_paginate paging_simple_numbers">
                                     <ul class="pagination">
                                         <li class="page-item disabled"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
-                                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                        <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+                                        <li class="page-item active"><a class="page-link" href="#" style="color: #fff; background: #333">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#" style="color: #fff; background: #333">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#" style="color: #fff; background: #333">3</a></li>
+                                        <li class="page-item""><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
                                     </ul>
                                 </nav>
                             </div>
