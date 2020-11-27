@@ -107,7 +107,7 @@ h4 {
     align-items: center;
     background-color: #666666;
     border-radius: 10px;
-    
+    height: 100%;
 }
 
 .no-opinion {
@@ -136,6 +136,7 @@ h4 {
 
 .bottom-btn {
     padding: 10px;
+height: 100%;
 }
 
 .box-comment {

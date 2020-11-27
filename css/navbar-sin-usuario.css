@@ -3,6 +3,10 @@
   display: none;
 }
 
+.iniciar{
+  min-width: 117px;
+}
+
 .navbar {
     background: #040019;
     color: #fff;
@@ -15,6 +19,7 @@
   
   .navbar ul {
     display: flex;
+    align-items: center;
     margin: 0;
     list-style-type: none;
   }
