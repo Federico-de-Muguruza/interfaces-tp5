@@ -1,10 +1,9 @@
-let dropdown = document.querySelector("#dropdown");
-console.log("hli");
-if(dropdown){
-    dropdown.onclick = () => {
-        let menu_oculto = document.querySelector("#menu-oculto");
+document.querySelector("#nav-dropdown-fuera").addEventListener("click", function () {
+    let menu_oculto = document.querySelector("#nav-menu-oculto-fuera");
+    menu_oculto.classList.toggle("menu-oculto");
+    menu_oculto.classList.toggle("existente");
+})
 
-        console.log(menu_oculto);
-        menu_oculto.classList.toggle("menu-oculto");
-    }
-}
+document.querySelector(".nav-fuera").addEventListener("click", function () {
+    window.location = "../html/index.html";
+})
