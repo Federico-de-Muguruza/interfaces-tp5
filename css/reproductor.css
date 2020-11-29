@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
     font-size: 1.5em;
+    /* margin-bottom: 60px; */
 }
 
 .reproductor header {
@@ -22,6 +23,10 @@
     display: flex;
     width: 100%;
     justify-content: center;
+}
+
+.reproductor-music-name p {
+    margin-bottom: 10px;
 }
 
 /* .reproductor-icon {
@@ -47,11 +52,13 @@
     font-size: 2em;
     width: 100%;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .reproductor-options-play {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 33%;
 }
 
@@ -59,6 +66,12 @@
     display: flex;
     width: 33%;
     justify-content: space-around;
+    align-items: center;
+}
+
+.reproductor-star, .reproductor-heart, .reproductor-next, .reproductor-play, .reproductor-back {
+    display: flex;
+    align-items: center;
 }
 
 html{
