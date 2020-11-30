@@ -1,0 +1,49 @@
+/* Mobile */
+
+.contenedor-filtro {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+}
+
+.contenedor-filtro h2, .contenedor-filtro p {
+    padding: 10px;
+}
+
+.box-filtros {
+    border-top: 1px solid #fff;
+    margin-bottom: 25px;
+}
+
+.box-title {
+    font-size: 1.5rem;
+}
+
+.box-buttons {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.box-checks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Escritorio */
+
+@media (min-width: 1200px) {
+    .contenedor-filtro {
+        width: 45%;
+    }
+
+    .box-checks {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+
+

@@ -56,6 +56,10 @@ p {
     /* border-bottom: #212121; */
 }
 
+.box-option p {
+    margin: 10px;
+}
+
 .selector-escritorio {
     display: none;
 }

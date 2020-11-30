@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/filtrar.css">
+    <script src="../js/filtroNuevo.js"></script>
+    <title>Filtrar</title>
+</head>
+<body>
+
+    <div class="contenedor-filtro">
+
+        <header>
+            <h2>Filtrar</h2>    
+        </header>
+                
+        <div class="box-filtros">
+
+            <p class="box-title">Género</p>
+
+            <div class="box-checks">
+
+                <div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Reggaeton</label>
+                    </div>
+    
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Pop</label>
+                    </div>
+    
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Rap</label>
+                    </div>
+
+                </div>
+
+                <div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Cumbia</label>
+                    </div>
+    
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Jazz</label>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="box-filtros">
+
+            <p class="box-title">Idioma</p>
+
+            <div class="box-checks">
+
+                <div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Español</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Inglés</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Francés</label>
+                    </div>
+
+                </div>
+
+                <div>
+    
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Alemán</label>
+                    </div>
+    
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Chino</label>
+                    </div>
+    
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Japonés</label>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="box-filtros">
+
+            <p class="box-title">Fecha</p>
+
+            <div class="box-checks">
+
+                <input type="date">
+
+            </div>
+
+        </div>
+
+        <div class="box-filtros">
+
+            <p class="box-title">Duración (en minutos)</p>
+
+            <div class="d-flex flex-column align-items-center">
+                
+                <label class="d-flex align-items-center">Mayor que:
+                    <span id="mayorQue" class="ml-3"></span> 
+                    <input id="inputMayorQue" class="ml-3" type="range" value="1" max="14" min="1">
+                </label>
+                <label class="d-flex align-items-center">Menor que:
+                    <span id="menorQue" class="ml-3"></span> 
+                    <input id="inputMenorQue" class="ml-3" type="range" value="14" max="14" min="1">
+                </label>
+
+            </div>
+        </div>
+
+        <div class="box-buttons d-flex justify-content-around">
+            <button class="btn btn-danger">Cerrar</button>
+            <button class="btn btn-success">Aplicar</button>
+        </div>
+    </div>
+
+    
+</body>
+</html>
