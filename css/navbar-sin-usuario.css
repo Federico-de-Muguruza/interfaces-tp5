@@ -27,9 +27,11 @@ html {
 
 .bar {
   width          : 100%;
+  padding-left: 5%;
+  padding-right: 5%;
   display        : flex;
   flex-direction : row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 /*__________header________*/
@@ -37,16 +39,17 @@ html {
 .navbar header {
   display    : flex;
   align-items: center;
-  width      : 75%;
+  justify-content: initial;
 }
 
-.img-box {
-  width : 15%;
+.navbar-title{
+  min-width: 150px;
+  margin-left: 15%;
+}
+
+.img-box img{
+  max-width: 40px;
   cursor: pointer;
-}
-
-.img-box img {
-  width: 50%;
 }
 
 .navbar h1 {
@@ -68,6 +71,10 @@ html {
   display: flex !important;
 }
 
+.inicio{
+  min-width: 118px;
+}
+
 /*__________area menu desplegable________*/
 
 .menu-oculto {
@@ -83,7 +90,6 @@ html {
 .existente {
   position           : relative;
   width              : 100%;
-  /* min-height      : 200px; */
   border-top         : 1px solid #777;
   color              : white;
   background-color   : #040019;

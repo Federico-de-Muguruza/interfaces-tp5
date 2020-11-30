@@ -1,109 +1,117 @@
-<html style="background-color: #212121;">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-    <title>Dashboard - Brand</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
     <link rel="stylesheet" href="../css/navbar-con-usuario.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-   </head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
+</head>
 
-<body id="page-top" style="background-color: #212121;">
+<body>
 
-        <div ></div>
-            <div id="">
-                <nav class="navbar navbar-light navbar-expand  shadow mb-4 topbar static-top"   >
-                        <div class="nav-home img-box">
-                            <img src="../images/crown.png" alt="Logo">
-                         </div>
-                    
-                    <div class="container-fluid ">
-
-                        <form class="form-inline d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-                            <div class="input-group"><input class="bg-light form-control border-0 small" style="color:#F0F0F0" type="text" placeholder="Buscar..." />
-                                <div class="input-group-append"><button class="btn btn-secondary py-0" onclick="window.location.href='/html/busquedas-generales.html'" type="button"><i class="fas fa-search"></i></button></div>
-                                <div class="input-group-append"><button class="btn btn-secondary py-0" onclick="window.location.href='/html/filtro.html'" type="button" ><i class="fas fa-cog"></i></button></div>
-                            </div>
-                        </form>
-
-                        <ul class="nav navbar-nav flex-nowrap ml-auto" style="margin-left: 0;">
-                            <li class="nav-item  dropdown d-sm-none no-arrow"><a class=" nav-link " data-toggle="dropdown" aria-expanded="" href="#"><i class="fas fa-search"></i></a>
-                                <div class="dropdown-menu  animated--grow-in "  style="background-color: #212121;" role="menu" aria-labelledby="searchDropdown">
-                                    <form class="form-inline mr-auto navbar-search w-100 ">
-                                        <div class="input-group"><input class="form-control" style="margin-left: 5%;margin-top: 5%;color:#F0F0F0" type="text" placeholder="Buscar..." />
-                                            <div class="input-group-append" style="margin-top: 3.5%;"><button class="btn btn-secondary border-0 py-0" style="margin-top: 5%;" onclick="window.location.href='/html/busquedas-generales.html'" type="button"><i class="fas fa-search"></i></button></div>
-
-                                            <div class="input-group-append" style="margin-right: 5%;margin-top: 3.5%;"><button class="btn btn-secondary border-0 py-0" onclick="window.location.href='/html/filtro.html'" style="margin-top: 5%;" type="button"><i class="fas fa-cog"></i></button></div>
-
-                                        </div>
-                                    </form>
-                                </div>
-
-                            </li>    
-
-                           
-                            <div class="nav-item dropdown no-arrow"><a class="nav-link" href="/html/inicio-registrado.html"><i class="fas fa-home"></i></a></div>
-                            <div class="nav-item  no-arrow"><a class="nav-link"><i class="fas fa-book-open"></i></a></div>
-
-                            <li class="nav-item dropdown no-arrow mx-1" role="presentation">
-                                <div class="nav-item dropdown no-arrow"> 
-                                    
-                                        <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">
-                                            <div> <i class="far fa-bell fa-fw"></i><span class="badge badge-danger badge-counter">3+</span> </div></a>
-                               
-                                    <div class="dropdown-menu dropdown-menu-right dropdown-list dropdown-menu-right animated--grow-in"
-                                        role="menu">
-                                        <h6 class="dropdown-header" style="background-color:#212121;">Notificaciones</h6>
-                                        <a class="d-flex align-items-center dropdown-item"  style="background-color: #333333; color:white" href="#">
-                                          <!--   notificaciones a partir de aca -->
-                                            <div class="mr-3">
-                                                <div class="bg-primary icon-circle"><i class="fas fa-file-alt text-white"></i></div>
-                                                
-                                            </div>
-                                            <div><span class="small text-gray-500">Noviembre 26, 2020</span>
-                                                <p>¡Nuevos temas de David Guetta para escuchar!</p>
-                                            </div>
-                                        </a>
-                                        <a class="d-flex align-items-center dropdown-item" style="background-color: #333333; color:white" href="#">
-                                            <div class="mr-3">
-                                                <div class="bg-success icon-circle"><i class="fas fa-donate text-white"></i></div>
-                                            </div>
-                                            <div><span class="small text-gray-500">Septiembre 25, 2020</span>
-                                                <p>¡Descuentos exclusivos para el plan Premium!</p>
-                                            </div>
-                                        </a>
-                                        <a class="d-flex align-items-center dropdown-item" style="background-color: #333333; color:white" href="#">
-                                            <div class="mr-3">
-                                                <div class="bg-warning icon-circle"><i class="fas fa-exclamation-triangle text-white"></i></div>
-                                            </div>
-                                            <div><span class="small text-gray-500">Septiembre 20, 2020</span>
-                                                <p>Te recomendamos que termines de configurar tu perfil para tener mejor experiencia en nuestra plataforma.</p>
-                                            </div>
-                                        </a><a class="text-center dropdown-item small text-gray-500" style="background-color: #212121; color:white" href="#">Ver más</a></div>
-                                </div>
-                            </li>
-                     
-
-                            <div class="d-none d-sm-block topbar-divider"></div>
-                            <li class="nav-item dropdown no-arrow" role="presentation">
-                                
-                                <div class="nav-item dropdown no-arrow"><a class="nav-link usuario" data-toggle="dropdown" aria-expanded="false" href="#"><span class="d-none d-lg-inline mr-2 text-gray-600 small">Guille Cesario</span>                    <i class="far fa-user-circle" id="dropdown"></i>
-                                </a>
-                                <!--   otro menu a partir de aca -->
-                                    <div class="dropdown-menu shadow dropdown-menu-right animated--grow-in"  style="background-color: #212121;" role="menu"><a class="dropdown-item text-gray-500" role="presentation" href="/html/configuracion-menu-general.html" ><i class="fas fa-cog fa-spin fa-sm fa-fw mr-2 text-gray-500"></i>Cuenta</a>
-                                        <a class="dropdown-item text-gray-500" role="presentation"  style="color: white;" href="/html/preguntas-frecuentes.html" ><i class="fas fa-hands-helping fa-sm fa-fw mr-2 text-gray-500"  ></i> Ayuda</a>
-                                            <div class="dropdown-divider"></div><a class="dropdown-item text-gray-500" role="presentation"  href="/html/index.html" ><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-500"></i>Cerrar sesión</a></div>
+    <div class="navbar">
+        <div class="bar">
+            <div class="grupo-inicio">
+                <header class="nav-home">
+                    <div class="img-box">
+                        <img src="../images/crown.png" alt="Logo">
                     </div>
+                    <div class="navbar-title">
+                        <h1>Spoiler Five</h1>
+                        <!-- FIXME: aca no va un h1 -->
+                    </div>
+                </header>
+
+                <div class="buscador input-group">
+                    <input type="text" class="form-control" placeholder="Buscar..." aria-label="buscar"
+                        aria-describedby="button-addon4">
+                    <div class="input-group-append" id="button-addon4">
+                        <a class="btn btn-secondary py-0" href="../html/busquedas-generales.html" type="button"><i
+                                class="fas fa-search"></i></a>
+                        <a class="btn btn-secondary py-0" href="../html/filtro.html" type="button"><i
+                                class="fas fa-cog"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="area-btn">
+                <ul>
+                    <li>
+                        <div class="nav-item dropdown no-arrow"><a class="nav-link"
+                                href="../html/inicio-registrado.html"><i class="fas fa-home"></i></a></div>
                     </li>
-                    </ul>
+                    <li>
+                        <div class="nav-item  no-arrow"><a class="nav-link" href="../html/biblioteca.html"><i
+                                    class="fas fa-book-open"></i></a></div>
+                    </li>
+                    <li>
+                        <a id="btn-nav-menu-oculto-dentro-notificaciones" class="campana" data-toggle="dropdown"
+                            aria-expanded="false" href="#">
+                            <div> <i class="far fa-bell fa-fw"></i><span
+                                    class="badge badge-danger badge-counter">3+</span> </div>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="nav-item dropdown no-arrow">
+                            <a id="btn-nav-menu-oculto-dentro-perfil" class="nav-link usuario" data-toggle="dropdown"
+                                aria-expanded="false" href="#"><span
+                                    class="d-none d-lg-inline mr-2 text-gray-600 small">Amanda Marolio</span> <i
+                                    class="far fa-user-circle" id="dropdown"></i> </a>
+                        </div>
+                    </li>
+
+                </ul>
             </div>
-            </nav>
-        
-            </div>
-      
         </div>
 
+    </div>
+    <div id="nav-menu-oculto-dentro-notificaciones" class="menu-oculto">
+        <div class="menu-notificaciones" role="menu">
+            <!--   notificaciones a partir de aca -->
+            <h6 class="dropdown-header">Notificaciones</h6>
+            <a class="dropdown-item text-gray-500" role="presentation"  href="#">
+                <i class="fas fa-file-alt text-white"></i>
+                <div>
+                    <span class="small text-gray-500">Noviembre 26, 2020</span>
+                    <p>¡Nuevos temas de David Guetta para escuchar!</p>
+                </div>
+            </a>
+            <a class="dropdown-item text-gray-500" role="presentation"  href="#">
+                <i class="fas fa-donate text-white"></i>
+                <div><span class="small text-gray-500">Septiembre 25, 2020</span>
+                    <p>¡Descuentos exclusivos para el plan Premium!</p>
+                </div>
+            </a>
+            <a class="dropdown-item text-gray-500" role="presentation"  href="#">
+               <i class="fas fa-exclamation-triangle text-white"></i>
+                <div><span class="small text-gray-500">Septiembre 20, 2020</span>
+                    <p>Te recomendamos que termines de configurar tu perfil para tener mejor experiencia en nuestra
+                        plataforma.</p>
+                </div>
+            </a>
+            <a href="#">Ver más</a>
+        </div>
+    </div>
 
+    <div id="nav-menu-oculto-dentro-perfil" class="menu-oculto">
+        <!--   menu usuario a partir de aca -->
+        <div role="menu">
+            <a class="dropdown-item text-gray-500" role="presentation" href="../html/configuracion-menu-general.html"><i
+                    class="fas fa-cog fa-spin fa-sm fa-fw mr-2 text-gray-500"></i>Cuenta</a>
+            <a class="dropdown-item text-gray-500" role="presentation" href="../html/preguntas-frecuentes.html"><i
+                    class="fas fa-hands-helping fa-sm fa-fw mr-2 text-gray-500"></i> Ayuda</a>
+            <a class="dropdown-item text-gray-500" role="presentation" href="../html/index.html"><i
+                    class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-500"></i>Cerrar sesión</a>
+        </div>
+    </div>
+
+    <script src="../js/navbar.js"></script>
 </body>
+
 </html>

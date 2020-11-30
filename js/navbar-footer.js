@@ -5,15 +5,26 @@ if (containerNavDentro)
             containerNavDentro.innerHTML = html;
 
             //________________________funcionalidad navbar dentro_________________________
-            let dropdown = document.querySelector("#dropdown");
-            if(dropdown){
-                dropdown.onclick = () => {
-                    let menu_oculto = document.querySelector("#menu-oculto");
+            let notificaciones = document.querySelector("#btn-nav-menu-oculto-dentro-notificaciones");
+            let perfil = document.querySelector("#btn-nav-menu-oculto-dentro-perfil");
+            let menu_oculto_perfil = document.querySelector("#nav-menu-oculto-dentro-perfil");
+            let menu_oculto_notificaciones = document.querySelector("#nav-menu-oculto-dentro-notificaciones");
 
-                    console.log(menu_oculto);
-                    menu_oculto.classList.toggle("menu-oculto");
-                }
-            }
+            notificaciones.addEventListener("click", function () {
+                menu_oculto_notificaciones.classList.toggle("menu-oculto");
+                menu_oculto_notificaciones.classList.toggle("existente");
+
+                menu_oculto_perfil.classList.remove("existente");
+                menu_oculto_perfil.classList.add("menu-oculto");
+            })
+
+            perfil.addEventListener("click", function () {
+                menu_oculto_perfil.classList.toggle("menu-oculto");
+                menu_oculto_perfil.classList.toggle("existente");
+
+                menu_oculto_notificaciones.classList.add("menu-oculto");
+                menu_oculto_notificaciones.classList.remove("existente");
+            })
 
             document.querySelector(".nav-home").addEventListener("click", function () {
                 window.location = "../html/inicio-registrado.html";
